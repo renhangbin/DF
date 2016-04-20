@@ -1,17 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<style type="text/css">
-  body {
-	padding-bottom: 40px;
-  }
-  .sidebar-nav {
-	padding: 9px 0;
-  }
-</style>
-<jsp:include page="header.jsp" flush="true" />
-</head>
-
+<?php
+require_once ("header.php");
+?>
 <body>
 <!--==========================头部================================-->
 <div class="navbar">
@@ -264,5 +255,5 @@
 </body>
 </html>
 <script type="text/javascript">
-
+alert(1234);
 </script>
